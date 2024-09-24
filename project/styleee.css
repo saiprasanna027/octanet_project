@@ -1,0 +1,157 @@
+body{
+    background: url("main.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 5px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.navlinks{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.search{
+    border-radius: 20px;
+    display: flex;
+    gap: 8rem;
+    opacity: 85%;
+}
+.login{
+    border-radius: 2px;
+    width: 90px;
+    height: 30px;
+    background-color:rgb(202, 231, 33);
+}
+.trans{
+    display: flex;
+    justify-content: center;
+    opacity: 80%;
+    text-transform:capitalize;
+    
+}
+.parent{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.child{
+    float: right;
+    box-shadow: 0 0 10px;
+    margin-top: 15px;
+    height: 120px;
+    width: 180px;
+    border: 2px solid rgb(105, 105, 189); 
+    margin-right: 50PX; 
+}
+.write{
+    flex-direction: column;
+    float: left;
+    display: flex;
+    color: rgb(63, 45, 35);
+    justify-content: left; 
+    margin-left: 50PX;
+    font-family:Arial, Helvetica, sans-serif;
+    width:350px;
+    padding-left: 5px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.hello{
+    color: white;
+    font-style: oblique;
+    width: 400px;
+    margin-left: 5px;
+    padding-left: 10px;
+  }
+.join{
+    justify-content: center;
+    display: flex;
+}
+.sub{
+    background-color: rgb(196, 163, 102);
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+  
+}
+.social_icons{
+    display: flex;
+    gap:7px;
+    padding-left: 80px;
+    
+}
+@media only screen and (max-width: 800px) {
+    /* Header */
+        body{
+            background: url("main.jpg");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size:1150px 2500px ;
+        }
+        .nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 50px;
+            margin-top: 15px;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        .navlinks{
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+           text-decoration: none;
+        }
+    /* End Header */
+        .trans{
+        display: flex;
+        width: 500px;
+        padding-top: 50%;
+        padding-left: 40%;
+        }
+        .write{
+        flex-direction: column;
+        float: left;
+        display: flex;
+        color: rgb(63, 45, 35);
+        justify-content: left; 
+        margin-left: 50PX;
+        font-family:Arial, Helvetica, sans-serif;
+        width:5px;
+    }
+    .parent{
+        align-items: last baseline;
+        align-content: end;
+        padding-top: 120%;
+        padding-left: 10px;
+    }
+    
+}
+    @media only screen and (max-width:500px){
+        add css for tablet screen size
+        .container, .write, .parent{
+            width: 100%;
+        }
+    }
+  
