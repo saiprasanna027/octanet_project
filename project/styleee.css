@@ -143,8 +143,10 @@ a{
     .parent{
         align-items: last baseline;
         align-content: end;
-        padding-top: 120%;
-        padding-left: 10px;
+/*         padding-top: 120%;
+        padding-left: 10px; */
+        align-items: center;
+        padding-left: 50%;
     }
     
 }
